@@ -4,23 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zali Rae Portfolio</title>
-    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/contact.css">
 </head>
 
 <body>
     <header>
         <div class="site-title">
-<a href="../styles/index.css">zali rae</a>
+<a href="../pages/index.html">zali rae</a>
         </div>
         <nav>
-            <a href="../styles/about.css">about</a>
-            <a href="../styles/contact.css">contact</a>
-            <a href="../styles/skills.css">skills</a>
-            <a href="../styles/previouswork.css">previous work</a>
+            <a href="../pages/about.html">ABOUT</a>
+            <a href="../pages/contact.html">CONTACT</a>
+            <a href="../pages/skills.html">SKILLS</a>
+            <a href="../pages/previouswork.html">PREVIOUS WORK</a>
         </nav>
     </header>
 
     <main>
+        <p1>contact.</p1>
+
+        <div class="container">
+            <form action="action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="your name..">
+
+                <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="your last name..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="subject.."></textarea>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="write something.."></textarea>
+
+    <input type="submit" value="submit">
+
+            </form>
+        </div>
 
     </main>
 
